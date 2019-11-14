@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  color: #61DAFB;
+  background: #2D2D2D;
+}
+
+h1 {
+  margin: 20px 0 15px 0;  
+}
+
+#main {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  font-size: 15px;
+}
+
+ul>li:hover {
+  background-color: rgb(237, 242, 243);
+}
+
+.form-inline .form-control {
+  width: 50%;
+}
+
+.done {
+  color: #ff0000;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: #00cc00;
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+}
+.btn-success {
+  margin-left: 10px;
+}
+.close{
+  font-size: 30px;
+}
+.todoValue{
+margin-right: 20px;
+}
+.list-group{
+  width: 62%;
+}
